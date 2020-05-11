@@ -188,6 +188,8 @@
 
 .product-content{
 	margin-top: 40px;
+    padding-bottom: 40px;
+
 
 }
 
@@ -233,22 +235,7 @@
 
 }
 
-.btn-pink{
-	background-color: #e50f74;
-    color: #fff! important;
-    border-color: #e50f74;
-    border-width: 2px;
-    font: 700 14px/1.35 Poppins, Arial;
-    -webkit-box-shadow: 0 2px 0 rgba(251, 251, 251, 0.25) inset, 0 3px 0 #b70051;
-    -moz-box-shadow: 0 2px 0 rgba(251, 251, 251, 0.25) inset, 0 3px 0 #b70051;
-    box-shadow: 0 2px 0 rgba(251, 251, 251, 0.25) inset, 0 3px 0 #b70051;
-    cursor: pointer;
-    min-width: 150px;
-    padding: 10px 15px;
-    display: inline;
-    border: 2px solid #e50f74;
-    text-decoration: none;
-}
+
 
 .image-container .prd-discount {
 	width: 70px;
@@ -432,135 +419,7 @@
     display: none;
 }
 
-.vias-contacto  a {
-    color: #565656;
-}
 
-	
-	.vias-contacto  a a:hover, a:focus {
-    color: #565656;
-}
-@media (min-width: 768px){
-.col-sm-4 {
-    width: 33.33333333%;
-	float:left;
-}
-}
-.footer-top, .footer-top a, .footer-top a:hover {
-    color: #565656;
-}
-
-.footer-top {
-    background-color: #fff;
-	letter-spacing: -.31em;
-	padding: 20px 10px;
-	
-	
-}
-
-.footer-extra-info {
-    text-align: center;
-    height: 110px;
-    letter-spacing: normal;
-    border-bottom: 1px solid #dcdcdc;
-    margin-bottom: 10px;
-    font-size: 13px;
-    font-weight: 600;
-}
-no-pad {
-    padding-right: 0!important;
-    padding-left: 0!important;
-}
-
-.footer-extra-info .info {
-    line-height: 1.3;
-    margin-top: 5px;
-}
-
-.footer-top .col {
-    display: inline-block;
-    float: none;
-    vertical-align: top;
-    letter-spacing: normal;
-    margin: 30px 0 0 0;
-}
-
-@media (min-width: 992px){
-.col-md-4 {
-    width: 33.33333333%;
-}
-}
-.newsletter {
-    margin-bottom: 12px;
-}
-
-.newsletter .block-title {
-    margin-bottom: 10px;
-}
-
-.newsletter .block-title .h4 {
-    font: 600 18px/1.35 Poppins, Arial;
-    color: #565656;
-    display: block;
-    margin: 0 0 10px 0;
-}
-
-.newsletter .block-content {
-    min-height: 48px;
-    margin: 0 auto;
-    width: 100%;
-    position: relative;
-}
-
-.site-footer {
-    border-top: 1px solid #dcdcdc;
-}
-
-
-.footer-top {
-    background-color: #fff;
-    letter-spacing: -.31em;
-    padding: 20px 10px;
-}
-.footer-extra-info {
-    text-align: center;
-    height: 110px;
-    letter-spacing: normal;
-    border-bottom: 1px solid #dcdcdc;
-    margin-bottom: 10px;
-    font-size: 13px;
-    font-weight: 600;
-}
-
-.footer-top .col {
-    display: inline-block;
-    float: none;
-    vertical-align: top;
-    letter-spacing: normal;
-    margin: 30px 0 0 0;
-}
-
-.newsletter {
-    margin-bottom: 12px;
-}
-
-.newsletter .block-title {
-    margin-bottom: 10px;
-}
-
-.newsletter .block-title .h4 {
-    font: 600 18px;
-    color: #565656;
-    display: block;
-    margin: 0 0 10px 0;
-}
-
-.newsletter .block-content {
-    min-height: 48px;
-    margin: 0 auto;
-    width: 100%;
-    position: relative;
-}
 
 ul.social {
     margin: 0;
@@ -598,53 +457,37 @@ ul.social li a {
     border-radius: 50%;
 }
 
-
-
-
-.no-pad {
-    padding-right: 0!important;
-    padding-left: 0!important;
+.footer-mid{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 30px;
 }
-.footer-top .h6 {
-    color: #565656;
-    font: 600 15px;
-    color: #565656;
-}
+.mt3{
 
-.footer-top .h6 {
-    text-transform: uppercase;
-    margin: 0 0 10px;
-}
+    vertical-align: top;
+    margin: 30px 0 0 0;
+    letter-spacing: normal;
+    font-size:13px;
 
-.footer-top, .footer-top a, .footer-top a:hover {
+}
+.ft-h2 {
+    
+    font: 600 20px/1.25 Poppins, Arial;
     color: #565656;
 }
 
-.footer-bottom {
-    border-top: 1px solid #dcdcdc;
-    background-color: #f9f9f9;
-}
 
-.footer-bottom {
-    padding: 50px 0;
-    z-index: 20000;
-}
-@media (min-width: 768px){
-.col-sm-3 {
-    width: 25%;
-	float: left;
-}
-}
 
-#topbardiscreto, .padding {
-    clear: both;
-    overflow: hidden;
-}
 
-.site-footer {
-    border-top: 1px solid #dcdcdc;
-}
-.info {
-    line-height: 1.3;
-    margin-top: 5px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
