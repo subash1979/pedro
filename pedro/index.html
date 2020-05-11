@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pedro Shop</title>
+    <meta charset="utf-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"type="text/css"href="css/bootstrap4.min.css">
+    <link rel="stylesheet"type="text/css"href="css/style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+    function myFunctionone() {
+    var x = document.getElementById("list_one");
+    x.style.display ="block";
+    var a = document.getElementById("list_two");
+    a.style.display ="none";
+    }
+    function myFunctionthree() {
+    var x = document.getElementById("list_one");
+    x.style.display ="none";
+    }
+    function myFunctiontwo() {
+    var y = document.getElementById("list_two");
+    y.style.display ="block";
+    var b = document.getElementById("list_one");
+    b.style.display ="none";
+    }
+    function myFunctionfour() {
+    var x = document.getElementById("list_two");
+    x.style.display ="none";
+    }
+    </script>
+	
+
+    
+  </head>
+  <body>
+    <div class="wrapper-container">
+      <header class="site-header">
+        <div class="header-top">
+			<div class="header-firstnav">
+			<nav class="navbar navbar-expand-lg">
+				 
+			</nav>
+			</div>
+        </div>
+        <div class="header-bottom">
+          <nav class="navbar  fixed-top navbar-expand-lg  navbar-light bg-light ">
+		  <div class="container">
+            <a class="navbar-brand"href="#">
+              <img style="width:40px;"class="d-inline-block align-top"alt=""src="logo.png">
+              <span class="logo"id="black">Pedro</span><span class="logo"id="blue"> Mall</span>
+            </a>
+            <button class="navbar-toggler"type="button"data-toggle="collapse"data-target="#navbarNavDropdown"aria-controls="navbarNavDropdown"aria-expanded="false"aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse"id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <!-- Dummy nav do not remove--->
+                <li class="nav-item active">
+                  <a class="nav-link"href="#">  </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link"href="#">  </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link"href="#">  </a>
+                </li>
+                <!-- Dummy nav do not remove--->
+                <li class="nav-item dropdown"onmouseover="myFunctionone()">
+                  <a class="nav-link dropdown-toggle"href="#"id="navbarDropdownMenuLink"role="button"data-toggle="dropdown"aria-haspopup="true"aria-expanded="false">
+                    <b>TOYS</b>
+                  </a>
+                  <div class="dropdown-menu"aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item"href="#">
+                    </a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown"onmouseover="myFunctiontwo()">
+                  <a class="nav-link dropdown-toggle"href="#"id="navbarDropdownMenuLink"role="button"data-toggle="dropdown"aria-haspopup="true"aria-expanded="false">
+                    <b>ESSENTIALS</b>
+                  </a>
+                  <div class="dropdown-menu"aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item"href="#">
+                    </a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"href="#"><b>EROTHECA</b></a>
+                </li>
+              </ul>
+              <div class="pull-right">
+                <span>
+                  <a class="nav-link"href="#"><i class="fa fa-search fa-2x"></i></a>
+                </span>
+                <span><a class="nav-link"href="#"><i class="fa fa-user fa-2x"></i></a></span>
+                <span>
+                  <a class="nav-link"href="#"><i class="fa fa-shopping-cart fa-2x"aria-hidden="true"></i></a>
+                </span>
+              </div>
+            </div>
+			</div>
+          </nav>
+          <div class="list_one"id="list_one"onmouseleave="myFunctionthree()">
+            <div class="row">
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/toys/Vibradores_140x140.png">
+                    Vibrators
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/toys/chinese_balls.jpg">
+                    Chinese balls
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/toys/para-ellos_140x140.png">
+                    Erotic penis toys
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom zoom"src="img/toys/anal-v2_140x140.png">
+                    Toys and accessories for anal sex
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/toys/bondage_140x140.png">
+                    BDSM-Fetish
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/toys/ver-todo-v2_140x140.png">
+                    All sex toys
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="list_two"id="list_two" onmouseleave="myFunctionfour()">
+            <div class="row">
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/essentials/1-lubricantes_140x140.png">
+                    Lubricants
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/essentials/2-aceites-velas_140x140.png">
+                    Massage oil and Candles
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/essentials/3-afrodisiacos-est_140x140.png">
+                    Stimulants and aphrodisiacs
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/essentials/4-higiene-b_140x140.png">
+                    Lingerie and accessories
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/essentials/icono-lenceria-low_140x140.png">
+                    Erotic games
+                  </span>
+                </a>
+              </div>
+              <div class="col-sm-2">
+                <a href="#">
+                  <span class="nav-span">
+                    <img class="nav-thumb zoom"src="img/essentials/juegos_140x140.png">
+                    Health Hygiene and condoms
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="content-container">
+        <div class="promo">
+          <h4>Free Shipping to all over the World from $140</h4>
+        </div>
+        <div class="banner-donation">
+          
+        </div>
+        <div class="promo-bottom ">
+          <span class="my-h2">Discover the toys that will make</span><span class="my-h2" id="colorful"> you play again!</span>
+        </div>
+        <!--Product Listing Container -->
+       
+          <div class="row my-row">
+            <div class="col-sm-4" onmouseover="hideProduct1()">
+              <div class="subcategorias" id="sub_cat1">
+                <div class="sub-cat-container" onmouseleave="showProduct1()">
+                  <a href="#" class="link-category">
+                    <img src="img/banner/1.png" width="280" height="187"  alt="Juguetes eróticos">
+                    <div class="hover-home" id="pd1">
+                      <h2 class="h4">
+                      <span>Juguetes eróticos</span>
+                      </h2>
+                      <span class="desc-category hidden-xs hidden-sm">
+                        Los juguetes más cuquis, divertidos y traviesos del mercado. Encuentra juguetes diseñados y fabricados por nosotros y sin intermediarios, así como una cuidada selección de juguetes innovadores de otras marcas.
+                      </span>
+                    </div>
+                  </a>
+                  <div class="ver-mas-juguetes">
+                    <a class="btn-orange btn-en-large" href="#">
+                      VER JUGUETES
+                      <i class="fa fa-plus-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4" onmouseover="hideProduct2()">
+              <div class="subcategorias" id="sub_cat2">
+                <div class="sub-cat-container"  onmouseleave="showProduct2()">
+                  <a href="#" class="link-category">
+                    <img src="img/banner/2.png" width="280" height="187"  alt="Esenciales y complementos">
+                    <div class="hover-home" id="pd2">
+                      <div class="h4">
+                        Esenciales
+                      </div>
+                      <span class="desc-category hidden-xs hidden-sm">
+                        Aceites para masaje, cremas estimulantes, lubricantes, preservativos... Productos de cosmética erótica ideales, y complementos indispensables para una vida sexual activa y saludable. Tus mejores aliados en la cama.
+                      </span>
+                    </div>
+                  </a>
+                  <div class="ver-mas-juguetes">
+                    <a class="btn-orange btn-ver-mas" href="https://www.platanomelon.com/collections/cosmetica-erotica-complementos">
+                      VER ESENCIALES
+                      <i class="fa fa-plus-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-sm-4" onmouseover="hideProduct3()">
+              <div class="subcategorias" id="sub_cat3">
+                <div class="sub-cat-container"  onmouseleave="showProduct3()">
+                  <a href="" class="link-category">
+                    <img src="img/banner/3.png" width="280" height="187"  alt="Kits o cajitas eróticas">
+                    <div class="hover-home" id="pd3">
+                      <h3 class="h4">
+                      Cajitas eróticas
+                      </h3>
+                      <span class="desc-category hidden-xs hidden-sm">
+                        Una cajita con un mix de todo lo anterior, especialmente diseñadas para: una noche inolvidable, jugar con tu pareja, durar más en la cama, disfrutar al máximo de una misma... Infinitas combinaciones y posibilidades.
+                      </span>
+                    </div>
+                  </a>
+                  <div class="ver-mas-juguetes">
+                    <a class="btn-orange btn-ver-mas" href="#">
+                      VER Cajitas
+                      <i class="fa fa-plus-circle"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Products -->
+      
+      </div>
+    </div>
+    <script type="text/javascript"href="js/bootstrap4.min.js"></script>
+    <script type="text/javascript"href="js/app.js"></script>
+    <script type="text/javascript"href="js/jquery-3.1.1.min.js"></script>
+  </body>
+</html>
