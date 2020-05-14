@@ -9,6 +9,8 @@
     width: 970px;
 }
 
+
+
 .container, .container-fluid {
     padding-right: 15px;
     padding-left: 15px;
@@ -258,13 +260,13 @@
  .prd_img_full{
 
  	float: left;
- 	max-width: 540px;
+ 	max-width: 520px;
  }
 
  .myCol{
  	width:48px; 
  	height: 48px;
- 	margin: 25px;
+ 	margin: 20px;
  }
  .myCol:hover {
  	border-radius: 50%;
@@ -287,7 +289,7 @@
 
 @media (max-width: 1199px) and (min-width: 992px){
 .prd_shop_cart {
-    padding: 0 30px;
+    padding: 0 0px;
 }
 }
 
